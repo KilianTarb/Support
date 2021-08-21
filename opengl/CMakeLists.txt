@@ -5,6 +5,7 @@ add_library(
 )
 
 find_package(glfw3 3.3 REQUIRED)
+target_link_libraries(opengl PUBLIC glfw)
 
 # Include the interfaces from the Graphical Abstraction Layer
 target_link_libraries(opengl PUBLIC gal)
