@@ -1,5 +1,7 @@
 add_library(
     engine
+    ./include/Engine.h
+    ./src/Engine.cc
     ./include/WindowManager.h
     ./src/WindowManager.cc
 )

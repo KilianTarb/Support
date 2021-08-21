@@ -1,5 +1,7 @@
 add_library(
     opengl
+    ./include/EngineInitalizer
+    ./src/EngineInitalizer
     ./include/WindowHandler
     ./src/WindowHandler
 )

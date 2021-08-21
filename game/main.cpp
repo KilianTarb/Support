@@ -1,7 +1,9 @@
 #include <iostream>
-#include "WindowManager.h"
+#include "Engine.h"
 
 int main(int, char**) {
-    WindowManager *m = new WindowManager();
-    m->StartWindow("Support");
+    std::cout << "Starting application..." << std::endl;
+    Engine *e = new Engine();
+    e->Init();
+    e->Start();
 }
