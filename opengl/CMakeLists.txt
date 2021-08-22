@@ -2,6 +2,8 @@ add_library(
     opengl
     ./include/EngineInitalizer
     ./src/EngineInitalizer
+    ./include/EventHandler
+    ./src/EventHandler
     ./include/EngineEvents
     ./src/EngineEvents
     ./include/WindowHandler

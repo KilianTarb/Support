@@ -2,7 +2,7 @@
 #include <functional>
 #include <iostream>
 
-typedef std::function<void(int error_code, const  char* description)> EngineErrorCallback;
+typedef std::function<void(int error_code, const char* description)> EngineErrorCallback;
 
 /**
  * Class containing and initalising GLFW's event callbacks.
