@@ -5,7 +5,13 @@ Engine::Engine() {
     _window_manager = new WindowManager();
 }
 
-Engine::~Engine() { }
+/**
+ * Destroy the Engine Object. Will also call `Engine::Stop()` to clear resources
+ * @see Engine::Stop()
+ */
+Engine::~Engine() {
+    _engine_init->Stop();
+}
 
 /**
  * Initalises the engine. This must be called before further calls can be made.
@@ -21,4 +27,12 @@ bool Engine::Init() {
  */
 void Engine::Start() {
     _window_manager->StartWindow("Support");
+}
+
+/**
+ * Stops engine and clears up resources.
+ * @return bool Once the engine has stopped.
+ */
+bool Engine::Stop() {
+    return _engine_init->Stop();
 }
