@@ -2,6 +2,8 @@ add_library(
     engine
     ./include/Engine.h
     ./src/Engine.cc
+    ./include/EngineLogger.h
+    ./src/EngineLogger.cc
     ./include/EventSystem.h
     ./src/EventSystem.cc
     ./include/WindowManager.h
