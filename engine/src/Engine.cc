@@ -8,6 +8,7 @@ Engine::Engine() {
 Engine::~Engine() { }
 
 bool Engine::Init() { 
+    _engine_init->SetErrorCallback({});
     return _engine_init->Init();
 }
 

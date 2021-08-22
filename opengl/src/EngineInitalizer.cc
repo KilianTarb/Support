@@ -11,3 +11,7 @@ bool EngineInitalizer::Stop() {
     glfwTerminate();
     return true;
 }
+
+void EngineInitalizer::SetErrorCallback(EngineErrorCallback callback) {
+    EngineEvents::SetErrorCallback(callback);
+}
