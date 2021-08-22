@@ -1,6 +1,9 @@
 #include "ILogger.h"
 #include <iostream>
 
+/**
+ * Logger for the Engine component.
+ */
 class EngineLogger : public ILogger
 {
 private:
