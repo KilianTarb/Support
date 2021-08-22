@@ -1,6 +1,9 @@
 #include "EngineInitalizer.h"
 #include "WindowManager.h"
 
+/**
+ * Entry point for the engine's context and configurations.
+ */
 class Engine
 {
 private:

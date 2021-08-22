@@ -1,6 +1,9 @@
 #include "IWindowHandler.h"
 #include <GLFW/glfw3.h>
 
+/**
+ * Class for handling the GLFW Window.
+ */
 class WindowHandler : public IWindowHandler
 {
 private:

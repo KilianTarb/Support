@@ -1,5 +1,8 @@
 #include "WindowHandler.h"
 
+/**
+ * Manages the application's Window state.
+ */
 class WindowManager
 {
 private:

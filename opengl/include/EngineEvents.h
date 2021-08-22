@@ -4,6 +4,9 @@
 
 typedef std::function<void(int error_code, const  char* description)> EngineErrorCallback;
 
+/**
+ * Class containing and initalising GLFW's event callbacks.
+ */
 class EngineEvents
 {
 private:

@@ -3,6 +3,9 @@
 #include "IEngineInitalizer.h"
 #include "EngineEvents.h"
 
+/**
+ * Initaliser for the GLFW library.
+ */
 class EngineInitalizer : public IEngineInitalizer
 {
 private:
