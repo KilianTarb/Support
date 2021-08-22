@@ -1,5 +1,8 @@
 #include "EngineLogger.h"
 
+EngineLogger::EngineLogger() { }
+EngineLogger::~EngineLogger() { }
+
 void EngineLogger::LogInfo(const char *text) {
     std::cout << "[ENGINE INFO] " << text << std::endl;
 }

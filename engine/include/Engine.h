@@ -8,7 +8,7 @@
 class Engine
 {
 private:
-    EngineLogger *_logger;
+    ILogger *_logger;
     IEngineInitalizer *_engine_init;
     WindowManager *_window_manager;
 public:

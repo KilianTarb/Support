@@ -3,6 +3,7 @@
 Engine::Engine() { 
     _engine_init = new EngineInitalizer();
     _window_manager = new WindowManager();
+    _logger = new EngineLogger();
 }
 
 /**
